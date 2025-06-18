@@ -361,7 +361,7 @@ export default function AssignedCustomers() {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid item xs={12} md={2}>
+            {/* <Grid item xs={12} md={2}>
               <FilterButton
                 fullWidth
                 startIcon={<FilterIcon />}
@@ -369,7 +369,7 @@ export default function AssignedCustomers() {
               >
                 Advanced
               </FilterButton>
-            </Grid>
+            </Grid> */}
           </Grid>
         </Paper>
       </Box>

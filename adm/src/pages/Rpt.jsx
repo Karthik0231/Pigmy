@@ -317,12 +317,12 @@ const Rpt = () => {
               </IconButton>
             </Tooltip>
             <Tooltip title="Export Report">
-              <IconButton 
+              {/* <IconButton 
                 onClick={handleExport}
                 sx={{ bgcolor: 'rgba(255,255,255,0.2)', color: 'white' }}
               >
                 <DownloadIcon />
-              </IconButton>
+              </IconButton> */}
             </Tooltip>
           </Box>
         </Box>

@@ -79,7 +79,7 @@ const Sidebar = ({ open, onClose }) => {
          </Avatar>
          <Box>
            <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-             User Panel
+             Admin Panel
            </Typography>
            <Typography variant="caption">
              Welcome Back

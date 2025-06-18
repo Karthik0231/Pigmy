@@ -7,6 +7,8 @@ import ProfilePage from './pages/ProfilePage';
 import DepositPage from './pages/DepositPage';
 import WithdrawalRequestPage from './pages/WithdrawalRequestPage';
 import FeedbackPage from './pages/FeedbackPage'; // Import the new FeedbackPage
+import ProtectedRoute from './components/ProtectedRoute';
+import './App.css';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,7 @@ function App() {
           {/* Public Routes */}
           <Route path="/" element={<LoginPage />} />
           <Route path="/login" element={<LoginPage />} />
-
+          <Route element={<ProtectedRoute />}>
           {/* Collector Routes under layout */}
           {/* Assuming AdminLayout is generic enough or you have a CollectorLayout */}
           <Route path="/" element={<AdminLayout />}>
@@ -29,6 +31,7 @@ function App() {
             {/* Add a default route or dashboard route here if needed */}
             {/* {{ edit_2 }} */}
             <Route path="/feedback" element={<FeedbackPage />} /> {/* Add the new feedback route */}
+          </Route>
           </Route>
         </Routes>
       </Context>

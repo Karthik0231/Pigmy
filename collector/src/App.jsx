@@ -9,6 +9,8 @@ import CollectorWithdrawalRequestsPage from './pages/CollectorWithdrawalRequests
 import CustomerStatementPage from './pages/CustomerStatementPage';
 import ProtectedRoute from './components/ProtectedRoute'; // Import the ProtectedRoute component
 import FeedbackPage from './pages/FeedbackPage';
+import './App.css';
+import ReportsPage from './pages/AllReports';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +36,7 @@ function App() {
                 <Route path="/withdrawal-requests" element={<CollectorWithdrawalRequestsPage/>} />
                 <Route path="/customer-statements/:customerId" element={<CustomerStatementPage />} />
                 <Route path="/feedbacks" element={<FeedbackPage/>} />
+                <Route path="/dashboard" element={<ReportsPage/>} />
              </Route>
           </Route>
 

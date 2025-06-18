@@ -50,7 +50,6 @@ const CollectorSidebar = ({ open, onClose }) => {
     { text: 'Deposits', icon: <AccountBalanceWalletIcon />, path: '/manage-deposits' },
     { text: 'Withdrawal Requests', icon: <ReceiptIcon />, path: '/withdrawal-requests' },
     { text:'Feedbacks', icon: <AssessmentIcon />, path: '/feedbacks' },
-    { text: 'Reports', icon: <AssessmentIcon />, path: '/reports' },
   ];
 
   const settingsItems = [

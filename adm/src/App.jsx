@@ -12,6 +12,7 @@ import ProtectedRoute from './components/ProtectedRoute'; // Import the Protecte
 import PaymentManagement from './pages/PaymentManagement';
 import FeedbackManagement from './pages/FeedbackManagement';
 import ReportsPage from './pages/Rpt';
+import './App.css';
 
 function App() {
   return (
