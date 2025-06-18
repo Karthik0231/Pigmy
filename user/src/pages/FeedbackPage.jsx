@@ -297,7 +297,7 @@ export default function FeedbackPage() {
 
       <Grid container spacing={3}>
         {/* Feedback Form */}
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={4} sx={{width:'500px'}}>
           <StyledPaper>
             <Typography variant="h6" sx={{ mb: 2, fontWeight: 600, color: '#333' }}>
               Submit New Feedback
@@ -391,7 +391,7 @@ export default function FeedbackPage() {
         </Grid>
 
         {/* Feedback History */}
-        <Grid item xs={12} md={8}>
+        <Grid item xs={12} md={8} sx={{width:'550px'}}>
           <StyledPaper>
             <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ mb: 3 }}>
               <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
@@ -473,7 +473,7 @@ export default function FeedbackPage() {
                 sx={{ flexGrow: 1, minWidth: 200 }}
               />
               
-              <FormControl size="small" sx={{ minWidth: 120 }}>
+              <FormControl size="small" sx={{ minWidth:'100%' }}>
                 <InputLabel>Type</InputLabel>
                 <Select
                   value={filterType}
@@ -505,7 +505,7 @@ export default function FeedbackPage() {
                 onClick={handleClearFilters}
                 variant="outlined"
                 size="small"
-                sx={{ minWidth: 80 }}
+                sx={{ minWidth: 'auto' }}
               >
                 Clear
               </Button>
