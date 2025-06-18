@@ -402,53 +402,6 @@ export default function FeedbackPage() {
               </Typography>
             </Stack>
 
-            {/* Statistics */}
-            {/* <StatsGrid container spacing={2}>
-              <Grid item xs={6} sm={3}>
-                <StatCard>
-                  <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
-                    {stats.total}
-                  </Typography>
-                  <Typography variant="caption" color="text.secondary">
-                    Total
-                  </Typography>
-                </StatCard>
-              </Grid>
-              <Grid item xs={6} sm={3}>
-                <StatCard>
-                  <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
-                    {stats.complaints}
-                  </Typography>
-                  <Typography variant="caption" color="text.secondary">
-                    Complaints
-                  </Typography>
-                </StatCard>
-              </Grid>
-              <Grid item xs={6} sm={3}>
-                <StatCard>
-                  <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
-                    {stats.suggestions}
-                  </Typography>
-                  <Typography variant="caption" color="text.secondary">
-                    Suggestions
-                  </Typography>
-                </StatCard>
-              </Grid>
-              <Grid item xs={6} sm={3}>
-                <StatCard>
-                  <Stack direction="row" alignItems="center" justifyContent="center" spacing={0.5}>
-                    <StarIcon sx={{ fontSize: 14, color: '#666' }} />
-                    <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
-                      {stats.avgRating}
-                    </Typography>
-                  </Stack>
-                  <Typography variant="caption" color="text.secondary">
-                    Avg Rating
-                  </Typography>
-                </StatCard>
-              </Grid>
-            </StatsGrid> */}
-
             {/* Search and Filter */}
             <SearchBox>
               <TextField
